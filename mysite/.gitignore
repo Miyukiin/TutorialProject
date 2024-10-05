@@ -1,1 +1,36 @@
+# Python
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+*.pdb
+*.egg
+*.egg-info/
+dist/
+build/
+*.log
+
+# Django
+*.sqlite3
+db.sqlite3
+*.log
+
+# Virtual environment
+env/
+venv/
+.myenv/
+
+# Secrets and configuration files
 .env
+.env.*
+*.local
+
+# Static and media files
+staticfiles/
+media/
+
+# IDEs
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
